@@ -1,0 +1,69 @@
+@import url(http://fonts.googleapis.com/css?family=Poppins);
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+header {
+    position: fixed;
+    background-color: red;
+    padding: 10px 100px;
+    top:0px;
+    left:0px;
+    width:100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.navi a {
+    color:whitesmoke;
+    text-decoration: none;
+    margin-left: 40px;
+    font-size: 1.1em;
+}
+
+.navi button {
+    margin-left: 40px;
+    background: transparent;
+    padding: 10px 20px;
+    color: whitesmoke;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 1.1em;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+input[type="radio"]{
+    margin-left: 10px 0;
+}
+
+* .div {
+    margin-top: 10px;
+}
+
+* .btn{
+    margin-top: 10px;
+    padding: 3px 6px;
+    border-radius: 2px;
+}
+
+.register .haa{
+    margin-top: 10px;
+    padding: 3px 6px;
+    border-radius: 2px;
+}
